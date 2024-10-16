@@ -1,0 +1,296 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+
+}
+.name {
+    padding: 30px;
+    background-color: rgb(228, 248, 241);
+}
+.name h1{
+    color: rgb(170, 156, 140);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    page-break-after: always;
+    margin-top: 0px;
+}
+
+
+.intro {
+    padding: 50px;
+    
+}
+
+.intro h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+    width: 100%; 
+}
+
+/* Contenedor principal */
+.container {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+/* Alineación y márgenes */
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-7 {
+    margin-bottom: 2rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-md-8 {
+    margin-bottom: 2rem;
+}
+
+/* Tamaños y colores de texto */
+.font-size-lg {
+    font-size: 1.25rem;
+}
+
+.text-gray-700 {
+    color: #6c757d;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+/* Índices */
+.badge {
+    padding: 0px;
+    font-size: 10px;
+}
+
+.bg-primary-soft {
+    background-color: #d4a3ca;
+}
+
+.rounded-pill {
+    border-radius: 50rem;
+}
+
+.badge-lg {
+    width: 50px;           
+    height: 50px;          
+    display: flex;         
+    align-items: center;   
+    justify-content: center;
+    font-size: 1.25rem;    
+    border-radius: 0;      
+    padding: 0;            
+    background-color: rgb(228, 248, 241);
+}
+
+
+.badge-circle {
+    border-radius: 50%;
+}
+
+
+/* Márgenes personalizados */
+.ms-5 {
+    margin-left: 1.5rem;
+}
+
+.titulo {
+    background-color: rgb(228, 248, 241);
+}
+
+/*Estilos para depilacion*/
+.servicios {
+    padding: 20px; /* Agregar padding para mejorar la presentación */
+}
+.text-center {
+    text-align: center; 
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d;
+    background-color: antiquewhite;
+    padding: 1.5rem;
+}
+
+.depi {
+    display: flex; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.depi img {
+    height: auto; 
+}
+
+.h1-h5 h1, .h1-h5 h5 {
+    margin: 1rem; 
+}
+
+.h1-h5 h1 {
+    margin-bottom: 10px; 
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-h5 h5{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*btn inicio*/
+.volver-inicio {
+    display: inline-block; /* Para que se comporte como un botón */
+    padding: 10px 20px; /* Espaciado interno */
+    color:#6c757d; 
+    background-color: antiquewhite;
+    border-radius: 5px; 
+    text-decoration: none; 
+    margin-bottom: 20px; 
+}
+
+.volver-inicio:hover {
+    background-color:rgb(228, 248, 241); 
+}
+
+/*estilo para body up*/
+.bodyup {
+    padding: 20px; 
+}
+
+.body {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; 
+}
+
+.h1-h5 {
+    max-width: 60%; 
+}
+.h1-h5 h5{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.img-fluid {
+    
+    height: auto; 
+}
+
+/*estilo para la vela*/
+
+.vela {
+    padding: 20px;
+    display: flex; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.vela img {
+    height: auto; 
+}
+
+.h1-h5 h1, .h1-h5 h5 {
+    margin: 1rem; 
+}
+
+.h1-h5 h1 {
+    margin-bottom: 10px; 
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-h5 h5{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*estilo criolipolisis*/
+.criolipolisis {
+    padding: 20px; 
+}
+
+.crio {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; 
+}
+
+.h1-h5 {
+    max-width: 60%; 
+}
+.h1-h5 h5{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.img-fluid {
+    height: auto; 
+}
+/* estilo pestañas*/
+.pestanas {
+    padding: 30px;
+    display: flex; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.pestana img {
+    height: auto; 
+}
+
+/*estilo pies*/
+.manicuri {
+    padding: 20px; 
+}
+
+.mani {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; 
+}
+
+
+.footer .icon-redes {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    height: 9vh;            /* Altura completa de la página */
+    background-color: rgb(228, 248, 241);
+}
+.footer p{
+    background-color: rgb(228, 248, 241);
+    padding: 10px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(170, 156, 140);
+}
